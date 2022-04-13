@@ -17,7 +17,7 @@ Custom container image for [Redis](https://redis.io/docs/) DB.
 
 ```Shell
 REDIS_TCP_BACKLOG=511
-REDIS_TCP_BACKLOG=300
+REDIS_TCP_KEEPALIVE=300
 
 REDIS_TIMEOUT=0
 REDIS_LOG_LEVEL=notice

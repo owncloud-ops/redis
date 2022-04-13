@@ -1,7 +1,7 @@
 dir /data
 
 tcp-backlog {{ getenv "REDIS_TCP_BACKLOG" "511" }}
-tcp-keepalive {{ getenv "REDIS_TCP_BACKLOG" "300" }}
+tcp-keepalive {{ getenv "REDIS_TCP_KEEPALIVE" "300" }}
 
 timeout {{ getenv "REDIS_TIMEOUT" "0" }}
 loglevel {{ getenv "REDIS_LOG_LEVEL" "notice" }}
