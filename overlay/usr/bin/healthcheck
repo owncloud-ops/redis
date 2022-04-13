@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+# shellcheck disable=SC3040
+set -eo pipefail
+
+CHECK=$(redis-cli -h 127.0.0.1 ping 2>/dev/null)
+
+[ "$CHECK" != "PONG" ] && exit 1
+
+exit 0
