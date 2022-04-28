@@ -1,4 +1,4 @@
-FROM redis:6.2.6-alpine@sha256:132337b9d7744ffee4fae83f51de53c3530935ad3ba528b7110f2d805f55cbf5
+FROM redis:6.2.7-alpine@sha256:4091b9da835824257744fba095932e470078eb2c0025899ac1c6944b2d638c7e
 
 LABEL maintainer="ownCloud GmbH"
 LABEL org.opencontainers.image.authors="ownCloud GmbH"
