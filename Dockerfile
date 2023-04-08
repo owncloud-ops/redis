@@ -1,4 +1,4 @@
-FROM docker.io/redis:6.2.11-alpine@sha256:edddbcad5a41d58df2f142d68439922f1860ea902903d016257337c3342f30fc
+FROM docker.io/redis:6.2.11-alpine@sha256:63e95f069a7ee668f1fcd0b0f8865e473510f98b56e5db4c8517d6cfbd073470
 
 LABEL maintainer="ownCloud GmbH"
 LABEL org.opencontainers.image.authors="ownCloud GmbH"
